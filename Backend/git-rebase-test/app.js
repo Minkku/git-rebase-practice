@@ -44,7 +44,6 @@ app.post('/users/signup', async (req, res) => {
         ?,
         ?,
         ?,
-        ?
       )
     `, [username, email, password])
 })
